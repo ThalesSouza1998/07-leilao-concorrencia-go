@@ -105,7 +105,3 @@ go test ./... -v
 ```
 
 O teste `TestFechamentoAutomaticoDoLeilao` cria um leilão com `AUCTION_DURATION=2s`, confirma que ele nasce aberto e consulta o banco até o status virar fechado. O teste `TestAgendamentoDoFechamentoNaoBloqueia` garante que o agendamento não segura a criação do leilão, e `TestDuracaoDoLeilao` cobre a leitura da variável de ambiente.
-
-## Nomes no código
-
-Funções, tipos, campos, constantes e variáveis estão em português. As rotas, os campos JSON, os nomes das coleções do MongoDB e as variáveis de ambiente foram mantidos como no projeto original para preservar o contrato da API e a configuração já usada pelo curso.
