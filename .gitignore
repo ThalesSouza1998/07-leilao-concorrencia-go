@@ -1,0 +1,13 @@
+# Binário gerado na raiz
+/auction
+
+# Cobertura de testes
+coverage.out
+coverage.html
+
+# IDE
+.idea/
+.vscode/
+
+# Sistema
+.DS_Store
